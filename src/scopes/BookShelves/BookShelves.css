@@ -1,0 +1,14 @@
+@media only screen and (max-width: 600px) {
+  #BookShelves {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #BookShelves {
+    display: flex;
+    justify-content: center;
+  }
+}

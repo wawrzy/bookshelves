@@ -11,6 +11,6 @@
 module.name_mapper='^Scopes' ->'<PROJECT_ROOT>/src/scopes'
 module.name_mapper='^Redux' ->'<PROJECT_ROOT>/src/redux'
 module.name_mapper='^Components' ->'<PROJECT_ROOT>/src/components'
-module.name_mapper='^Custom' ->'<PROJECT_ROOT>/src/customization'
+module.name_mapper='^Types' ->'<PROJECT_ROOT>/src/types'
 
 [strict]

@@ -1,0 +1,25 @@
+@media only screen and (min-width: 600px) {
+  #SListShelves {
+    width: 276px;
+    padding-top: 32px;
+  }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 768px) {
+  .container-padding {
+    padding: 16px 8px 0 16px;
+  }
+}
+
+@media only screen and (min-width: 1000px), (max-width: 768px) {
+  .container-padding {
+    padding: 24px 8px 0 24px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #SListShelves {
+    width: 100%;
+    padding: 16px;
+  }
+}

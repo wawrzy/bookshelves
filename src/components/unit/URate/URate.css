@@ -1,0 +1,12 @@
+.rate-container {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 900;
+  color: #434A5E;
+}
+
+.rate-star {
+  height: 17px;
+  margin-right: 4px;
+}

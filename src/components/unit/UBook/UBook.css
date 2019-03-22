@@ -1,0 +1,36 @@
+.book-container {
+  width: 166px;
+}
+
+.book-image-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 125px;
+  height: 188px;
+  margin: 0 auto;
+}
+
+.book-title {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.book-infos {
+  display: flex;
+  justify-content: space-around;
+  margin: 8px 12px 0;
+}
+
+.book-image {
+  display: block;
+  max-width: 125px;
+  max-height: 188px;
+}
+
+.book-authors {
+  display: flex;
+  justify-content: center;
+  margin-top: 4px;
+}

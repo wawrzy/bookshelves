@@ -1,0 +1,33 @@
+.books-container {
+  max-width: 972px;
+  flex-grow: 1;
+  background-color: #FFFFFF;
+  min-height: 100vh;
+  padding: 16px 0 52px;
+}
+
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(166px, 1fr));
+  justify-items: center;
+  grid-gap: 40px 22px;
+  padding: 24px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 16px;
+  color: #369AE9;
+  font-weight: 900;
+}
+
+.page-active {
+  color: #434A5E;
+}
+
+.pagination > li {
+  display: block;
+  cursor: pointer;
+  margin-left: 12px;
+}
