@@ -12,6 +12,7 @@ type Props = {
   books: Array<Book>,
   onPageChange: Function,
   pageCount: number,
+  forcePage: number,
 };
 
 export default class SListBooks extends Component<Props> {
@@ -30,16 +31,17 @@ export default class SListBooks extends Component<Props> {
     );
   }
 
-  renderBook = (book: Object) => <UBook key={book.id} className="book" book={book} />
+  renderBook = (book: Book) => <UBook key={book.id} className="book" book={book} />
 
   renderPagination = () => {
-    const { onPageChange, pageCount } = this.props;
+    const { onPageChange, pageCount, forcePage } = this.props;
 
     return (
       <ReactPaginate
         previousLabel={null}
         nextLabel={null}
         breakLabel="..."
+        forcePage={forcePage}
         pageCount={pageCount}
         marginPagesDisplayed={2}
         pageRangeDisplayed={2}

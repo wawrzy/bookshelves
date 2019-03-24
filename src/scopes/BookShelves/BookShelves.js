@@ -74,7 +74,7 @@ class BookShelves extends Component<Props, State> {
         <SListBooks
           books={books}
           onPageChange={this.handleChangePage}
-          offset={offset}
+          forcePage={offset / LIMIT_PER_PAGE}
           pageCount={numberOfBooks / LIMIT_PER_PAGE}
         />
       </div>
